@@ -1,0 +1,57 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7E9DC;
+}
+
+.expenses{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.expenses__head{
+    background-color: #EC755D;
+    width: 440px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.expenses__head__myBalance{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.expenses__head__myBalance--text{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.expenses__head__myBalance--number{
+
+    font-size: 29px;
+    font-weight: bold;
+    color: #FFF;
+}
+.expenses__head__myBalance__logo{
+    margin-right: 25px;
+
+}
+
+
+
+.expenses__body{
+    background-color: green;
+    width: 440px;
+    height: 345px;
+    border-radius: 18px;
+}
+
+footer{
+    position: absolute;
+    top: 93%;
+}
