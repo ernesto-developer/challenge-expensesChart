@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #F7E9DC;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .expenses{
@@ -13,7 +14,7 @@ body{
 }
 .expenses__head{
     background-color: #EC755D;
-    width: 440px;
+    width: 370px;
     height: 100px;
     margin-bottom: 15px;
     border-radius: 18px;
@@ -27,13 +28,13 @@ body{
     margin-left: 25px;
 }
 .expenses__head__myBalance--text{
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     margin-bottom: 10px;
 }
 .expenses__head__myBalance--number{
 
-    font-size: 29px;
+    font-size: 24px;
     font-weight: bold;
     color: #FFF;
 }
@@ -45,11 +46,75 @@ body{
 
 
 .expenses__body{
-    background-color: green;
-    width: 440px;
+    background-color: #fff;
+    padding: 22px;
     height: 345px;
     border-radius: 18px;
 }
+.expenses__body__title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.expenses__body__chart{
+    display: flex;
+    justify-content: space-between;
+    height: 61%;
+    align-items: flex-end;
+    margin-bottom: 55px;
+}
+.expenses__body__chart--value{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.expenses__body__chart__value--column{
+    background-color: #EC755D;
+    width: 38px;
+    height: 100px;
+    border-radius: 5px;
+}
+.expenses__body__chart__value--day{
+    font-size: 11px;
+    color: #b9b9b9;
+    margin-top: 10px;
+}
+.expenses__body__results{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.expenses__body__results--total{
+    display: flex;
+    flex-direction: column;
+}
+.total--text{
+    font-size: 12px;
+    color: #b9b9b9;
+    margin-bottom: 10px;
+}
+.total--number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.expenses__body__results--lastMonth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+    .lastMonth--number{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.lastMonth--text{
+    font-size: 14px;
+    color: #b9b9b9;
+}
+
+
+
 
 footer{
     position: absolute;
