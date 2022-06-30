@@ -137,5 +137,40 @@ body{
 
 footer{
     position: absolute;
-    top: 93%;
+    top: 96%;
+}
+
+
+@media (max-width: 440px){
+    .expenses{
+        position: relative;
+        top: 0px; 
+        transform: translate(0, 0); 
+        margin: 36px 10px;
+    }
+
+    .expenses__head{
+        width: 99%;
+    }
+    .expenses__body__chart__value--column{
+        width: 28px;
+    }
+    .expenses__body__chart__value--amount{
+        padding: 5px 2px;
+        font-size: 8px;
+    }
+    .expenses__body__title{
+        font-size: 20px;
+    }
+    footer{
+        position: relative;
+        top: 0px;
+        text-align: center;
+        width: 226px;
+    }
+}
+@media (max-height: 540px){
+    footer{
+        top: 110%;
+    }
 }
