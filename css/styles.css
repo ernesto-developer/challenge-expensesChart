@@ -61,22 +61,41 @@ body{
     height: 61%;
     align-items: flex-end;
     margin-bottom: 55px;
+    /* margin-top: 56px; */
 }
 .expenses__body__chart--value{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.expenses__body__chart__value--amount{
+    display: none;
+    background-color: black;
+    color: #fff;
+    padding: 6px 3px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 .expenses__body__chart__value--column{
     background-color: #EC755D;
     width: 38px;
     height: 0px;
     border-radius: 5px;
+    
+    
 }
+/* .expenses__body__chart__value--column:hover{
+    opacity: 0.5;
+} */
 .expenses__body__chart__value--day{
     font-size: 11px;
     color: #b9b9b9;
     margin-top: 10px;
+
 }
 .expenses__body__results{
     display: flex;

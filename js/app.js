@@ -1,5 +1,6 @@
     import { test } from "./loadColumns.js";
 
+   
 
     var xhttp = new XMLHttpRequest();
 
@@ -8,10 +9,12 @@
    
        let data = JSON.parse(this.responseText);
            test(data);
-          
+            
+           
 
        }
    
    };
    xhttp.open("GET", "data.json", true);
    xhttp.send();
+
