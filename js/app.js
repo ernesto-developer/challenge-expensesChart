@@ -9,11 +9,6 @@
    
        let data = JSON.parse(this.responseText);
            test(data);
-            
-           
-
-       }else{
-           console.log("NO JALO");
        }
    
    };
