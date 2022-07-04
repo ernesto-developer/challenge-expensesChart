@@ -14,7 +14,7 @@ body{
 }
 .expenses__head{
     background-color: #EC755D;
-    width: 370px;
+    width: 100%;
     height: 100px;
     margin-bottom: 15px;
     border-radius: 18px;
@@ -147,11 +147,9 @@ footer{
         top: 0px; 
         transform: translate(0, 0); 
         margin: 36px 10px;
+        width: 90%;
     }
 
-    .expenses__head{
-        width: 99%;
-    }
     .expenses__body__chart__value--column{
         width: 28px;
     }
